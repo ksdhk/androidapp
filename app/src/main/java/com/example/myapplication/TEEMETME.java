@@ -1,5 +1,5 @@
 package com.example.myapplication;
 
 public class TEEMETME {
-String a = "abcdefgji";
+String a = "aaa";
 }
