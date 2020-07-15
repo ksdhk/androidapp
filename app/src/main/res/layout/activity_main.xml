@@ -10,10 +10,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:onClick="onButton1Clicked"
         android:text="확인1"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="477dp" />
 
     <Button
         android:id="@+id/button2"
