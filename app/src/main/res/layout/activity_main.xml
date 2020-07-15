@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,35 +20,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onButton2Clicked"
-        android:text="안녕하세요반갑습니다"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="175dp" />
+        android:text="안녕하세요반갑습니다" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="118dp"
         android:onClick="onButton3Clicked"
-        android:text="전화걸기"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="199dp" />
+        android:text="전화걸기" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="109dp"
-        android:text="Button"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        tools:layout_editor_absoluteX="88dp" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="365dp" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/button6"
@@ -56,9 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="83dp" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/button7"
@@ -66,15 +56,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="223dp" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="650dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Button" />
+</LinearLayout>
